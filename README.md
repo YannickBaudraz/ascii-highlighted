@@ -1,50 +1,75 @@
-# React + TypeScript + Vite
+# ASCII Table App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive ASCII table built with React and TypeScript, providing a comprehensive view of all ASCII characters and their corresponding codes in various number systems.
 
-Currently, two official plugins are available:
+![ASCII Table App Screenshot](./screenshot.png) *(Add a screenshot of your app here)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Table of Contents
 
-## Expanding the ESLint configuration
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+Check out the live application here:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+[**Live Demo**](https://your-deployed-app-url.com) *(Replace with your deployed app URL)*
+
+## Features
+
+- **Full ASCII Character Set**: Explore all 256 ASCII characters.
+- **Detailed Codes**: View decimal, hexadecimal, octal, and binary codes.
+- **Copy Functionality**: Easily copy any printable character to the clipboard.
+- **Highlighting**: Selected characters are highlighted for better visibility.
+- **Smooth Scrolling**: Automatically scrolls to highlighted characters.
+- **Responsive Layout**: Adapts to various screen sizes for optimal user experience.
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+
+ ```bash
+ git clone https://github.com/YannickBaudrazascii-highlighted.git
+ cd ascii-highlighted
+ ```
+
+2. **Install the dependencies:**
+
+```bash
+yarn install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Usage
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Running the App Locally
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+Start the development server:
+
+```bash
+yarn start
 ```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+### Building for Production
+
+Create an optimized production build:
+
+```bash
+yarn build
+```
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Ant Design**: A UI library for React for designing user interfaces.
