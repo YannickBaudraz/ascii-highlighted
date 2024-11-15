@@ -20,7 +20,7 @@ An interactive ASCII table built with React and TypeScript, providing a comprehe
 
 Check out the live application here:
 
-[**Live Demo**](https://your-deployed-app-url.com) *(Replace with your deployed app URL)*
+[**Live Demo**](https://ascii-highlighted.netlify.app/)
 
 ## Features
 
