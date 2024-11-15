@@ -2,7 +2,7 @@
 
 An interactive ASCII table built with React and TypeScript, providing a comprehensive view of all ASCII characters and their corresponding codes in various number systems.
 
-![ASCII Table App Screenshot](./screenshot.png) *(Add a screenshot of your app here)*
+![ASCII Table App Screenshot](screenshot.png)
 
 ### Table of Contents
 
